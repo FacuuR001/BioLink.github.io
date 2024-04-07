@@ -1,0 +1,27 @@
+[
+  {
+    "red_social": "LinkedIn",
+    "url": "https://www.linkedin.com/in/facundo-rullo-152bbb279/",
+    "imagen": "assets/logos/linkedin.png"
+  },
+  {
+    "red_social": "Portafolio",
+    "url": "https://facuur001.github.io/Portfolio.github.io/",
+    "imagen": "assets/logos/portafolio.png"
+  },
+  {
+    "red_social": "GitHub",
+    "url": "https://github.com/FacuuR001",
+    "imagen": "assets/logos/github.png"
+  },
+  {
+    "red_social": "Instagram",
+    "url": "https://www.instagram.com/facu.rullo12/",
+    "imagen": "assets/logos/instagram.png"
+  },
+  {
+    "red_social": "Twitter",
+    "url": "https://twitter.com/Facundo29823843",
+    "imagen": "assets/logos/x.png"
+  }
+]

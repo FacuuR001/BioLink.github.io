@@ -1,0 +1,62 @@
+:root {
+    /* Variables Generales */
+    --colorWhite: #FFF;
+    --colorBlack: #000;
+
+  /* Font Family */
+  --fontFamily: "JetBrains mono";
+
+  /* Background Body */
+  --RGBABlue: rgba(36, 6, 152, 1);
+  --RGBAPink: rgba(191, 91, 154, 1);
+  --RGBARed: rgba(144, 56, 56, 1);
+
+  /* Variables Scroll Bar */
+  --colorScrollBarTrack: #f1f1f1;
+  --colorScrollBarThumb: #888;
+  --colorScrollBarCorner: #f1f1f1;
+
+  /* Contenedor Links */
+  --BackgroundContenedorLinks: #d9d9d9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontFamily);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    var(--RGBABlue),
+    var(--RGBAPink),
+    var(--RGBARed)
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Ancho y color de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--colorScrollBarTrack);
+}
+
+/* Color de la manija/dragger de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: var(--colorScrollBarThumb);
+}
+
+/* Estilo de la esquina del área de desplazamiento */
+::-webkit-scrollbar-corner {
+  background: var(--colorScrollBarCorner);
+}

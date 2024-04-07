@@ -1,0 +1,160 @@
+.header {
+  height: 110px;
+  position: relative;
+}
+
+.header__portada {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+}
+
+.perfil {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  width: 130px;
+  max-width: 40%;
+  z-index: 1000;
+}
+
+.perfil__contenedor--secundario {
+  height: 80px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link__img {
+  width: 10%;
+}
+
+.redes__usuario {
+  text-align: center;
+  color: var(--colorWhite);
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.link__contenedor {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: flex;
+  max-width: 80%;
+
+  justify-content: center;
+}
+
+.link__a {
+  background: var(--BackgroundContenedorLinks);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 40px;
+  text-decoration: none;
+}
+
+.link__p {
+  flex-grow: 1;
+  color: var(--colorBlack);
+}
+
+.footer {
+  padding: 1rem;
+}
+
+.footer__copy {
+  color: var(--colorWhite);
+  text-align: center;
+}
+
+@media (min-width: 375px) {
+  .perfil {
+    width: 132px;
+    max-width: 35%;
+  }
+}
+
+@media (min-width: 425px) {
+  .perfil {
+    width: 137px;
+    max-width: 32%;
+  }
+
+  .redes__usuario {
+    margin-top: 1rem;
+  }
+
+  .link__a {
+    height: 50px;
+  }
+
+  .link__p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .link__a {
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 190px;
+  }
+
+  .header__portada {
+    height: 190px;
+  }
+
+  .perfil {
+    width: 200px;
+    top: 55%;
+  }
+
+  .redes__usuario {
+    margin-top: 2rem;
+  }
+
+  .links {
+    gap: 0.5rem;
+  }
+
+  .link__a {
+    height: 70px;
+  }
+
+  .link__img {
+    width: 11%;
+  }
+
+  .link__p {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 1.5rem;
+  }
+
+  .footer__copy {
+    font-size: 1.2rem;
+  }
+}
